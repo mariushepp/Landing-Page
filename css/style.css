@@ -1,0 +1,42 @@
+/* Importing all components file */
+@import url("components/banner.css");
+@import url("components/cards.css");
+@import url("components/footer.css");
+@import url("components/button.css");
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Karla:300,400,500|Spectral:400,500,600,700,800');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Utilities */
+body {
+  height: 100%;
+  margin: 0;
+  font-family: Karla, sans-serif;
+  color: whitesmoke;
+  background-color: black;
+  text-align: center;
+}
+
+h1, h2, h3, h4 {
+  font-family: Spectral, sans-serif;
+}
+
+h2 {
+  line-height: 1em;
+}
+
+h1 {
+  font-size: 4em;
+  font-weight: 800;
+  line-height: 0.8em;
+}
+
+a {
+  text-decoration: none;
+  color: lightgray;
+}
+
+/* Custom design below! */

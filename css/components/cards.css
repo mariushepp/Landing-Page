@@ -1,0 +1,24 @@
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+  margin: 40px;
+}
+
+.card {
+  padding: 30px;
+  color: white;
+  background: black;
+  border-radius: 20px;
+  margin: 40px;
+}
+
+.card:hover {
+  background: white;
+  color: black;
+  box-shadow: 1px 1px 15px #b9b9b9;
+}
+
+.card img {
+  margin: 30px;
+}
